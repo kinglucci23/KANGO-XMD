@@ -1,10 +1,10 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
 // @project_name : KANGO-XMD 
-// @author : Hector 
+// @author : King Lucci
 // @telegram : http://t.me/official_kango
 // @github : OfficialKango
-// @whatsapp : +233509977126
+// @whatsapp : +233266676258
 
 //----------------------[ KANGO-XMD ]----------------------//
 
@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~NucAjQyJ#HTz1ozg3cmrK7p0uUsss8rfgv-dd1YNl3KxyYEUT6Nk' 
 //Enter your KANGO-XMD session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -24,17 +24,17 @@ global.botname = process.env.BOT_NAME || 'KANGO-XMD'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '233266676258' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202'];
-// Type additional allowed users here
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202','233266676258'];
+// Type additional allowed users here's 
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || 'King Lucci 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
@@ -62,7 +62,7 @@ global.wm = process.env.GL_WM || "> ©KANGO-XMD"
 global.mess = { 
   done: '*Done*', 
   success: '©kango-xmd', 
-  owner: `*You don't have permission to use this command!*`, 
+  owner: `*You don't have permission to use this motherfucker🤫!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
   notadmin: '*This feature will work once you become an admin. A way of ensuring order!*' 
